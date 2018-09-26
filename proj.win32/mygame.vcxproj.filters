@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{33fd5d0d-57c9-4110-81d9-52d719451f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sprite">
+      <UniqueIdentifier>{aa971503-c907-4c01-9ef2-e69be9d657dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\欢迎页场景">
+      <UniqueIdentifier>{da4ab265-9957-4b28-8a3c-e3cf75fe6ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\介绍页场景">
+      <UniqueIdentifier>{85907fe2-d762-4547-b571-14812c3f1a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\游戏场景">
+      <UniqueIdentifier>{a29aced1-001e-406b-a0a4-376cc35fbcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\关卡选择">
+      <UniqueIdentifier>{bee25985-c77f-4ec1-975a-0b52b57aadfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\地图">
+      <UniqueIdentifier>{f2faf119-9df6-48d2-a010-006693c63e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\暂停页场景">
+      <UniqueIdentifier>{f85b042d-2656-4151-8536-454c067110f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sprite\物体类">
+      <UniqueIdentifier>{7993f337-1127-4c76-997e-eff7f8014240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sprite\角色类">
+      <UniqueIdentifier>{a3556e40-4bdc-43a8-9425-892467827195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene\HUD层">
+      <UniqueIdentifier>{c2ae02cd-52ed-492d-8605-eb6bc80eeae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\游戏管理类">
+      <UniqueIdentifier>{865da625-5721-4de5-86b5-22940113e168}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\scene\欢迎页场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AboutScene.cpp">
+      <Filter>src\scene\介绍页场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\scene\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelScene.cpp">
+      <Filter>src\scene\关卡选择</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapScene.cpp">
+      <Filter>src\scene\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OverScene.cpp">
+      <Filter>src\scene\暂停页场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Brick.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Coin.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Door.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Grenade.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero.cpp">
+      <Filter>src\sprite\角色类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LifeObject.cpp">
+      <Filter>src\sprite\角色类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>src\sprite\角色类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Spikes.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicsSprite.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Wall.cpp">
+      <Filter>src\sprite\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HudLayer.cpp">
+      <Filter>src\scene\HUD层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DynamicData.cpp">
+      <Filter>src\游戏管理类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>src\游戏管理类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StaticData.cpp">
+      <Filter>src\游戏管理类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Define.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\scene\欢迎页场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutScene.h">
+      <Filter>src\scene\介绍页场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\scene\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelScene.h">
+      <Filter>src\scene\关卡选择</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapScene.h">
+      <Filter>src\scene\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OverScene.h">
+      <Filter>src\scene\暂停页场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Brick.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Coin.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Door.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Grenade.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero.h">
+      <Filter>src\sprite\角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LifeObject.h">
+      <Filter>src\sprite\角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>src\sprite\角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Spikes.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicsSprite.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Wall.h">
+      <Filter>src\sprite\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HudLayer.h">
+      <Filter>src\scene\HUD层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DynamicData.h">
+      <Filter>src\游戏管理类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>src\游戏管理类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StaticData.h">
+      <Filter>src\游戏管理类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\ArticleBomb.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Coin.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\FlyingSlime.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Hero.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HeroDie.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level_1.tmx">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level_2.tmx">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level_3.tmx">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Missile.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Monster.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\MonsterDie.plist">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\config.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\load.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\test.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\text.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\tile.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
